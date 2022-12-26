@@ -1,0 +1,42 @@
+﻿Why do we need Refresh Tokens?
+------------------------------
+> If we are using an access token for a long time, there is a chance a hacker can steal our token and misuse it. 
+> Hence it is not very safe to use the access token for a long period.
+
+--> Refresh tokens are the kind of tokens that can be used to get new access tokens.
+--> When the access tokens expire, we can use refresh tokens to get a new access token from the 
+																				authentication controller. 
+--> The lifetime of a refresh token is usually much longer compared to the lifetime of an access token.
+
+=================
+
+==> We will set a short lifetime for an access token.
+So that, even the access token used by a hacker gets access only for a brief period. We will issue a 
+refresh token along with an access token from the login request. 
+Whenever the access token expires, we can get a new access token using the refresh token.
+
+==================
+We will be using Microsoft Identity framework to store user and role information. 
+ASP.NET Core Identity is a membership system which allows you to add login functionality to your application.
+Users can create an account and login with a username and password, or 
+they can use an external login provider such as Facebook, Google, Microsoft Account, Twitter and more.
+==================
+Whenever the user login into the application using valid credentials,
+we will update refresh token and token expiry time in the user table inside the Identity database. 
+After the expiry of access token, if user again tries to get secured resource from the application,
+it will throw 401 un-authorized error. Then the user can try to refresh the token using current access token and 
+refresh token. In the refresh method, application will confirm expired token and refresh token.
+If both are valid, the application will issue a new access token and refresh token to the user.
+Corresponding user can use this new token to access secured resources in the application.
+
+If something went wrong, the refresh token can be revoked which means that when the application tries to use 
+it to get a new access token, that request will be rejected, and the user will have to enter credentials 
+once again and authenticate.
+==================
+
+We can install the 4 libraries below using NuGet package manager.
+
+Microsoft.EntityFrameworkCore.SqlServer
+Microsoft.EntityFrameworkCore.Tools
+Microsoft.AspNetCore.Identity.EntityFrameworkCore
+Microsoft.AspNetCore.Authentication.JwtBearer

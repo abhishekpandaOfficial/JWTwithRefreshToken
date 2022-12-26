@@ -66,3 +66,4 @@ E:\Programs\JWTRefreshToken\JWTRefreshToken.NET6._0.Auth\JWTRefreshToken.NET6._0
 E:\Programs\JWTRefreshToken\JWTRefreshToken.NET6._0.Auth\JWTRefreshToken.NET6._0.Auth\obj\Debug\net6.0\JWTRefreshToken.NET6._0.Auth.pdb
 E:\Programs\JWTRefreshToken\JWTRefreshToken.NET6._0.Auth\JWTRefreshToken.NET6._0.Auth\obj\Debug\net6.0\JWTRefreshToken.NET6._0.Auth.genruntimeconfig.cache
 E:\Programs\JWTRefreshToken\JWTRefreshToken.NET6._0.Auth\JWTRefreshToken.NET6._0.Auth\obj\Debug\net6.0\ref\JWTRefreshToken.NET6._0.Auth.dll
+E:\Programs\JWTRefreshToken\JWTRefreshToken.NET6._0.Auth\JWTRefreshToken.NET6._0.Auth\bin\Debug\net6.0\HtmlAgilityPack.dll

@@ -67,3 +67,9 @@ E:\Programs\JWTRefreshToken\JWTRefreshToken.NET6._0.Auth\JWTRefreshToken.NET6._0
 E:\Programs\JWTRefreshToken\JWTRefreshToken.NET6._0.Auth\JWTRefreshToken.NET6._0.Auth\obj\Debug\net6.0\JWTRefreshToken.NET6._0.Auth.genruntimeconfig.cache
 E:\Programs\JWTRefreshToken\JWTRefreshToken.NET6._0.Auth\JWTRefreshToken.NET6._0.Auth\obj\Debug\net6.0\ref\JWTRefreshToken.NET6._0.Auth.dll
 E:\Programs\JWTRefreshToken\JWTRefreshToken.NET6._0.Auth\JWTRefreshToken.NET6._0.Auth\bin\Debug\net6.0\HtmlAgilityPack.dll
+E:\Programs\JWTRefreshToken\JWTRefreshToken.NET6._0.Auth\JWTRefreshToken.NET6._0.Auth\bin\Debug\net6.0\Azure.Core.dll
+E:\Programs\JWTRefreshToken\JWTRefreshToken.NET6._0.Auth\JWTRefreshToken.NET6._0.Auth\bin\Debug\net6.0\Azure.Storage.Blobs.dll
+E:\Programs\JWTRefreshToken\JWTRefreshToken.NET6._0.Auth\JWTRefreshToken.NET6._0.Auth\bin\Debug\net6.0\Azure.Storage.Common.dll
+E:\Programs\JWTRefreshToken\JWTRefreshToken.NET6._0.Auth\JWTRefreshToken.NET6._0.Auth\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+E:\Programs\JWTRefreshToken\JWTRefreshToken.NET6._0.Auth\JWTRefreshToken.NET6._0.Auth\bin\Debug\net6.0\System.IO.Hashing.dll
+E:\Programs\JWTRefreshToken\JWTRefreshToken.NET6._0.Auth\JWTRefreshToken.NET6._0.Auth\bin\Debug\net6.0\System.Memory.Data.dll

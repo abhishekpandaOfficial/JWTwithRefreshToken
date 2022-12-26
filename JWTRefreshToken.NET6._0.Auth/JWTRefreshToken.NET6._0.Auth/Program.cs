@@ -1,4 +1,6 @@
 using JWTRefreshToken.NET6._0.Auth.Auth;
+using JWTRefreshToken.NET6._0.Auth.BlobStorage.Implementations;
+using JWTRefreshToken.NET6._0.Auth.Model.Interfaces;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
@@ -43,7 +45,7 @@ builder.Services.AddAuthentication(options =>
     };
 });
 
-
+builder.Services.AddScoped<IBlobStorage, BlobStorage>();
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle

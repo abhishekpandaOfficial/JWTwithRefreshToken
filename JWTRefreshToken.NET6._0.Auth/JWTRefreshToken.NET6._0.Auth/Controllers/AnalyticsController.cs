@@ -166,12 +166,14 @@ namespace JWTRefreshToken.NET6._0.Auth.Controllers
         [Route("GetCategory/{authorId}")]
         public IQueryable<Category> GetCategory(string authorId)
         {
+#pragma warning disable CS8604 // Possible null reference argument.
             return from x in _dbContext.ArticleMatrices.Where(x => x.AuthorId == authorId).GroupBy(x => x.Category)
                    select new Category
                    {
                        Name = x.FirstOrDefault().Category,
                        Count = x.Count()
                    };
+#pragma warning restore CS8604 // Possible null reference argument.
         }
     }
 }
